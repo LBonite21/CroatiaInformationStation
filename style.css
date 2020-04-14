@@ -1,3 +1,55 @@
-.header {
-    background-color: red;
+body{
+    margin: 0;
+    background-color: #7a7a7a ;
+}
+/* Top tabs */
+.tabs{
+    width: 100%;
+    margin: 0px;
+    background-color: #ccc;
+    text-align: center;
+    min-height: 60px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+header::after {
+    content: "";
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);
+    display: block;
+    height: 10px;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    min-width: 60px;
+    max-width: 120px;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    color: #555;
+    transition: ease-in-out 170ms;
+    background-color: #cccccc;
+    font-size: 16px;
+    padding: 25px;
+}
+nav li a label{
+    padding: 25px;
+}
+nav li a:hover{
+    background-color: #ac9f95;
+    color: white;
+}
+nav li a:active{
+    background-color: #a59674;
+    color: white;
+}
+#content{
+    padding: 20px;
+    margin: 10px;
+    bottom: 20px;
 }
