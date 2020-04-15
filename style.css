@@ -79,6 +79,7 @@ div li a:active{
 #info {
     display: flex;
     flex-direction: row;  
+    background-color: #fff;
 }
 
 
