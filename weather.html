@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_io/site.webmanifest">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='weather.js'></script>
+    <title>Weather Forcast</title>
+</head>
+
+<header>
+    <!-- Top Nav Bar -->
+    <div id="nav-bar" class="box">
+        <div id="left-header" class="box">
+            <img src="images/CoatOfArms1.png" alt="Coat Of Arms" style="width: 200px;">
+        </div>
+        <div id="right-header" class="box">
+            <div class="tabs box">
+                <h1>Croatia</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="weather.html">Weather</a></li>
+                    <li><a href="tourist.html">Sight Seeing</a></li>
+                    <li><a href="food.html">Food</a></li>
+                    <li><a href="parks.html">National Parks</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <center>
+
+        <div class="box">
+            <div>
+                <h2>Weather</h2>
+            </div>
+        </div>
+    
+        <section class="weather">
+            
+            <div id='day1' class='day'>
+                <p id="date0"></p>
+                <p id='weather0'></p>
+                <p id='temp0'></p>
+                <p id="weatherIcon0"></p>
+            </div>
+            <div id='day2' class='day'>
+                <p id="date1"></p>
+                <p id='weather1'></p>
+                <p id='temp1'></p>
+                <p id="weatherIcon1"></p>
+            </div>
+            <div id='day3' class='day'>
+                <p id="date2"></p>
+                <p id='weather2'></p>
+                <p id='temp2'></p>
+                <p id="weatherIcon2"></p>
+            </div>
+            <div id='day4' class='day'>
+                <p id="date3"></p>
+                <p id='weather3'></p>
+                <p id='temp3'></p>
+                <p id="weatherIcon3"></p>
+            </div>
+            <div id='day5' class='day'>
+                <p id="date4"></p>
+                <p id='weather4'></p>
+                <p id='temp4'></p>
+                <p id="weatherIcon4"></p>
+            </div>
+        </section>
+    </center>
+
+</body>
+
+<footer>
+    <div id="footer" class="box"></div>
+</footer>
+</html>
