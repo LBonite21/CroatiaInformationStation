@@ -9,24 +9,24 @@ $(document).ready(function() {
         var weathData5 = data.list[32].weather[0].description;
         //can only do 5 days
 
-        $('#date0').html(data.list[0].dt_txt);
-        $('#weather0').html(weathData1);
+        $('#date0').html(data.list[0].dt_txt.substring(0,10));
+        $('#weather0').html(weathData1.toUpperCase());
         $('#temp0').html(data.list[0].main.temp + "&deg; F");
 
-        $('#date1').html(data.list[8].dt_txt);
-        $('#weather1').html(weathData2);
+        $('#date1').html(data.list[8].dt_txt.substring(0,10));
+        $('#weather1').html(weathData2.toUpperCase());
         $('#temp1').html(data.list[8].main.temp + "&deg; F");
 
-        $('#date2').html(data.list[16].dt_txt);
-        $('#weather2').html(weathData3);
+        $('#date2').html(data.list[16].dt_txt.substring(0,10));
+        $('#weather2').html(weathData3.toUpperCase());
         $('#temp2').html(data.list[16].main.temp + "&deg; F");
 
-        $('#date3').html(data.list[24].dt_txt);
-        $('#weather3').html(weathData4);
+        $('#date3').html(data.list[24].dt_txt.substring(0,10));
+        $('#weather3').html(weathData4.toUpperCase());
         $('#temp3').html(data.list[24].main.temp + "&deg; F");
 
-        $('#date4').html(data.list[36].dt_txt);
-        $('#weather4').html(weathData5);
+        $('#date4').html(data.list[36].dt_txt.substring(0,10));
+        $('#weather4').html(weathData5.toUpperCase());
         $('#temp4').html(data.list[36].main.temp + "&deg; F");
 
         var icon0 = document.createElement('img');
