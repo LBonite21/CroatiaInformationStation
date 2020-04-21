@@ -8,22 +8,22 @@ img {
   }
   
   /* Position the image container (needed to position the left and right arrows) */
-  .container {
+  /* .container {
     position: relative;
-  }
+  } */
   
   /* Hide the images by default */
-  .mySlides {
+  /* .mySlides {
     display: none;
   }
-  
+   */
   /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
+  /* .cursor {
     cursor: pointer;
   }
-  
+   */
   /* Next & previous buttons */
-  .prev,
+  /* .prev,
   .next {
     cursor: pointer;
     position: absolute;
@@ -37,32 +37,32 @@ img {
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
-  }
+  } */
   
   /* Position the "next button" to the right */
-  .next {
+  /* .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
+  } */
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
+  /* .prev:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
+  } */
   
   /* Six columns side by side */
-  .column {
+  /* .column {
     float: left;
     width: 25%;
-  }
+  } */
   
   /* Add a transparency effect for thumnbail images */
-  .demo {
+  /* .demo {
     opacity: 0.6;
-  }
+  } */
   
-  .active,
+  /* .active,
   .demo:hover {
     opacity: 1;
   } */
