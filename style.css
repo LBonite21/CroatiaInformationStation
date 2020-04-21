@@ -1,12 +1,15 @@
 /* Flexbox Usage */
-.box{
+
+.box {
     /* border: 1px solid #000; */
     flex: 1;
     /* background-color: #cf3434; */
     /* text-align: center;  */
 }
 
+
 /* Header Styling */
+
 #nav-bar {
     display: flex;
     flex-direction: row;
@@ -32,22 +35,24 @@ h1 {
     color: #d4d6e1;
 }
 
+
 /* Top tabs */
-.tabs{
+
+.tabs {
     width: 100%;
-    margin: 0px; 
+    margin: 0px;
     background-color: #cf3434;
     text-align: left;
     height: 80px;
 }
 
-div ul{
+div ul {
     list-style: none;
     margin-left: 80px;
     overflow: hidden;
 }
 
-div li{
+div li {
     float: left;
     text-align: center;
     padding-left: 15px;
@@ -66,33 +71,44 @@ div li a {
     border-radius: 5px;
     padding: 10px;
 }
-div li a label{
+
+div li a label {
     padding: 25px;
 }
-div li a:hover{
+
+div li a:hover {
     background-color: #ac9f95;
     color: white;
 }
-div li a:active{
+
+div li a:active {
     background-color: #a59674;
     color: white;
 }
 
+
 /* Heading Title */
+
 h2 {
     font-size: 34pt;
     color: #808087;
 }
 
+
 /* Body Styling */
+
 #info {
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
     background-color: #fff;
 }
 
+
 /* Images Section  */
+
+
 /* Image Styling */
+
 .image {
     width: 620px;
     margin-bottom: 105px;
@@ -100,25 +116,52 @@ h2 {
     border-radius: 15px;
 }
 
+
 /* Information Section */
+
 h3 {
     font-size: 30pt;
     color: #808087;
-    margin-bottom: -10px; 
+    margin-bottom: -10px;
 }
 
+
 /* Information Text Styling */
+
 #info-text {
     font-size: 20pt;
     text-align: left;
     width: 700px;
 }
 
+
 /* Footer */
+
 #footer {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 125px;
     background-color: #1e23ac;
+}
+
+.day {
+    background: #A7AAC5;
+    border-style: solid;
+    border-width: 3px;
+    margin: 2px;
+    flex: 1;
+}
+
+.weather {
+    background: transparent;
+    border: 2px solid #8E98C5;
+    width: 50%;
+    height: 500px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
